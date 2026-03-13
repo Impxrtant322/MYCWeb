@@ -1,12 +1,1438 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Website</title>
-</head>
-<body>
-  <h1>Hello world</h1>
-  <p>My site is live :3</p>
-</body>
+  <head>
+    <title>Advanced Revolving Chinchilla</title>
+    <meta property="og:title" content="Advanced Revolving Chinchilla" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}pre {  white-space: normal;}input {  padding: 2px 4px;}img {  display: block;}details {  display: block;  margin: 0;  padding: 0;}summary::-webkit-details-marker {  display: none;}[data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}[data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 1000vh;}details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: "Nunito Sans";
+        font-size: 1rem;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: undefined;
+        text-transform: undefined;
+        letter-spacing: 0.2px;
+        line-height: 1.6;
+        color: var(--color-on-surface);
+        background: var(--color-surface);
+
+        fill: var(--color-on-surface);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./index.css" rel="stylesheet" />
+
+      <div class="home-container1">
+        <navigation-wrapper class="navigation-wrapper">
+          <!--Navigation component-->
+          <div class="navigation-container1">
+            <nav class="navigation-root">
+              <div class="navigation-container">
+                <a href="index.html">
+                  <div
+                    aria-label="Mon Youth Community of Colorado Home"
+                    class="navigation-brand"
+                  >
+                    <span class="section-title">Mon Youth Community</span>
+                    <span class="navigation-brand-tagline">of COLORADO</span>
+                  </div>
+                </a>
+                <div class="navigation-desktop-links">
+                  <a href="index.html">
+                    <div class="navigation-link"><span>Gallery</span></div>
+                  </a>
+                  <a href="index.html">
+                    <div class="navigation-link"><span>Events</span></div>
+                  </a>
+                  <a href="index.html">
+                    <div class="navigation-link"><span>About Us</span></div>
+                  </a>
+                  <a href="index.html">
+                    <div class="navigation-link"><span>Contact</span></div>
+                  </a>
+                  <a href="index.html">
+                    <div class="btn btn-primary btn-sm">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="20"
+                        height="20"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <path
+                          d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676a.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5"
+                        ></path>
+                      </svg>
+                      <span>Donate</span>
+                    </div>
+                  </a>
+                </div>
+                <button
+                  id="nav-toggle-open"
+                  aria-label="Open Menu"
+                  aria-expanded="false"
+                  class="navigation-toggle"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="28"
+                    height="28"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path d="M4 6h16M4 12h16M4 18h16"></path>
+                  </svg>
+                </button>
+              </div>
+            </nav>
+            <div id="nav-mobile-overlay" class="navigation-mobile-overlay">
+              <div class="navigation-mobile-header">
+                <a href="index.html">
+                  <div
+                    aria-label="Mon Youth Community of Colorado Home"
+                    class="navigation-brand"
+                  >
+                    <span class="section-title">Mon Youth</span>
+                  </div>
+                </a>
+                <button
+                  id="nav-toggle-close"
+                  aria-label="Close Menu"
+                  class="navigation-toggle"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="28"
+                    height="28"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <rect width="18" height="18" x="3" y="3" rx="2"></rect>
+                    <path d="M3 15h18m-6-7l-3 3l-3-3"></path>
+                  </svg>
+                </button>
+              </div>
+              <div class="navigation-mobile-content">
+                <div class="navigation-mobile-links">
+                  <a href="index.html">
+                    <div class="navigation-mobile-link">
+                      <span>Gallery</span>
+                    </div>
+                  </a>
+                  <a href="index.html">
+                    <div class="navigation-mobile-link">
+                      <span>Events</span>
+                    </div>
+                  </a>
+                  <a href="index.html">
+                    <div class="navigation-mobile-link">
+                      <span>About Us</span>
+                    </div>
+                  </a>
+                  <a href="index.html">
+                    <div class="navigation-mobile-link">
+                      <span>Contact</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="navigation-mobile-actions">
+                  <a href="index.html">
+                    <div class="btn btn-primary btn-lg">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <path
+                          d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676a.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5"
+                        ></path>
+                      </svg>
+                      <span>Support Our Dancers</span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="navigation-container2">
+              <div class="navigation-container3">
+                <script defer="" data-name="navigation-logic">
+                  document.addEventListener('DOMContentLoaded', function() {
+                    (function(){
+                      const navOverlay = document.getElementById("nav-mobile-overlay")
+                      const openBtn = document.getElementById("nav-toggle-open")
+                      const closeBtn = document.getElementById("nav-toggle-close")
+                      const mobileLinks = document.querySelectorAll(".navigation-mobile-link")
+
+                      const openMenu = () => {
+                        navOverlay.classList.add("is-open")
+                        document.body.style.overflow = "hidden"
+                        openBtn.setAttribute("aria-expanded", "true")
+                      }
+
+                      const closeMenu = () => {
+                        navOverlay.classList.remove("is-open")
+                        document.body.style.overflow = ""
+                        openBtn.setAttribute("aria-expanded", "false")
+                      }
+
+                      openBtn.addEventListener("click", openMenu)
+                      closeBtn.addEventListener("click", closeMenu)
+
+                      mobileLinks.forEach((link) => {
+                        link.addEventListener("click", closeMenu)
+                      })
+
+                      document.addEventListener("keydown", (e) => {
+                        if (e.key === "Escape" && navOverlay.classList.contains("is-open")) {
+                          closeMenu()
+                        }
+                      })
+                    })()
+                  });
+                </script>
+              </div>
+            </div>
+          </div>
+        </navigation-wrapper>
+        <section class="hero-intro">
+          <div class="hero-intro__video-wrapper">
+            <video
+              autoplay="true"
+              muted="true"
+              loop="true"
+              playsinline="true"
+              poster="https://images.unsplash.com/photo-1588434013438-e1dd134eda16?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDN8fHN0b2NrJTIwdmlkZW98ZW58MHx8fHwxNzczNDQzODgyfDA&amp;ixlib=rb-4.1.0&amp;h=1500"
+              src="https://videos.pexels.com/video-files/3913099/3913099-hd_1920_1080_30fps.mp4"
+              class="hero-intro__video"
+            ></video>
+            <div class="hero-intro__overlay"></div>
+          </div>
+          <div class="hero-intro__content">
+            <div class="hero-intro__text-block">
+              <h1 class="hero-title">Preserving Culture Through Dance</h1>
+              <p class="hero-subtitle">
+                Mon Youth Community of Colorado: Empowering our youth,
+                celebrating our heritage, and building a vibrant community
+                through the art of traditional Mon dance.
+              </p>
+              <div class="hero-intro__actions">
+                <a href="#gallery">
+                  <div class="btn btn-primary btn-lg">
+                    <span>Galleries</span>
+                  </div>
+                </a>
+                <a href="#videos">
+                  <div class="btn btn-lg btn-secondary">
+                    <span>Videos</span>
+                  </div>
+                </a>
+                <a href="#events">
+                  <div class="btn btn-lg btn-outline"><span>Events</span></div>
+                </a>
+                <a href="#donate">
+                  <div class="btn btn-lg btn-accent"><span>Donate</span></div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="featured-dancers">
+          <div class="featured-dancers__container">
+            <div class="featured-dancers__header">
+              <h2 class="section-title">Spotlight Performers</h2>
+              <p class="section-content">
+                Meet the talented young individuals who bring our cultural
+                stories to life on stage.
+              </p>
+            </div>
+            <div class="featured-dancers__grid">
+              <article class="featured-dancers__card">
+                <div class="featured-dancers__image-wrapper">
+                  <img
+                    src="public/855a05f8-b8ce-4dd3-a7b3-abee5b0951db-1500w.jpg"
+                    alt="Seng, Lead Dancer"
+                    class="featured-dancers__img"
+                  />
+                </div>
+                <div class="featured-dancers__info">
+                  <h3 class="section-subtitle">Laya Roon</h3>
+                  <p class="section-content">
+                    Specializing in classical Mon dances for over 8 years, Laya
+                    leads our youth ensemble with grace.
+                  </p>
+                </div>
+              </article>
+              <article class="featured-dancers__card">
+                <div class="featured-dancers__image-wrapper">
+                  <img
+                    src="https://images.unsplash.com/photo-1599009434802-ca1dd09895e7?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDF8fHBsYWNlaG9sZGVyfGVufDB8fHx8MTc3MzQ0MjU1Mnww&amp;ixlib=rb-4.1.0&amp;w=1500"
+                    alt="Nyein, Folk Specialist"
+                    class="featured-dancers__img"
+                  />
+                  <svg height="20" width="20" viewBox="0 0 20 20">
+                    <path
+                      fill="currentColor"
+                      d="M8 2H2a2 2 0 0 0-2 2v2h12z"
+                    ></path>
+                    <rect
+                      width="20"
+                      height="14"
+                      y="4"
+                      fill="currentColor"
+                      rx="2"
+                    ></rect>
+                  </svg>
+                </div>
+                <div class="featured-dancers__info">
+                  <h3 class="section-subtitle">Aindra Mon</h3>
+                  <p class="section-content">
+                    <span>
+                      Balancing performance with mentorship, Aindra helps our
+                      youngest members learn their first steps.
+                    </span>
+                    <br />
+                  </p>
+                </div>
+              </article>
+              <article class="featured-dancers__card">
+                <div class="featured-dancers__image-wrapper">
+                  <img
+                    src="public/image0-1500w.jpg"
+                    alt="Htaw, Youth Mentor"
+                    class="featured-dancers__img"
+                  />
+                </div>
+                <div class="featured-dancers__info">
+                  <h3 class="section-subtitle">Kong Tala</h3>
+                  <p class="section-content">
+                    A vibrant performer of Mon folk traditions, Kong brings high
+                    energy and storytelling to every event.
+                  </p>
+                </div>
+              </article>
+              <article class="featured-dancers__card">
+                <div class="featured-dancers__image-wrapper">
+                  <img
+                    src="public/a8594039-9fb0-474f-a290-2a07134bfe61-1500w.jpg"
+                    alt="Mi Mi, Contemporary Lead"
+                    class="featured-dancers__img"
+                  />
+                </div>
+                <div class="featured-dancers__info">
+                  <h3 class="section-subtitle">Htaw Poin</h3>
+                  <p class="section-content">
+                    Lead Guitarist of the MYC Band, Poin plays with dignity and
+                    grace to bring excitement to the show.
+                  </p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+        <section id="events" class="events-highlights">
+          <div class="events-highlights__wrapper">
+            <div class="events-highlights__header">
+              <h2 class="section-title">Upcoming Events</h2>
+              <p class="section-content">
+                Join us for our next cultural celebrations and community
+                gatherings.
+              </p>
+            </div>
+            <div class="events-highlights__timeline">
+              <div class="events-highlights__track">
+                <article class="events-highlights__item">
+                  <div class="events-highlights__date-badge">
+                    <span class="events-highlights__month">APR</span>
+                    <span class="events-highlights__day">Apr 18</span>
+                  </div>
+                  <div class="events-highlights__card">
+                    <h3 class="section-subtitle">Mon Songkran Festival</h3>
+                    <p class="section-content">
+                      A grand celebration of the Mon New Year with traditional
+                      water ceremonies and dance performances.
+                    </p>
+                    <div class="events-highlights__meta">
+                      <div class="events-highlights__meta-item">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="20"
+                          height="20"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        >
+                          <path
+                            d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"
+                          ></path>
+                          <circle cx="12" cy="10" r="3"></circle>
+                        </svg>
+                        <span>Ramanya Nikaya Vimuttirasa Buddhist temple</span>
+                      </div>
+                    </div>
+                    <a href="#">
+                      <div class="btn btn-primary btn-sm">
+                        <span>Event Details</span>
+                      </div>
+                    </a>
+                  </div>
+                </article>
+                <article class="events-highlights__item">
+                  <div class="events-highlights__date-badge">
+                    <span class="events-highlights__month">JUN</span>
+                    <span class="events-highlights__day">N/A</span>
+                  </div>
+                  <div class="events-highlights__card">
+                    <h3 class="section-subtitle">Summer Dragonboat Festival</h3>
+                    <p class="section-content">
+                      We will be participating in the Dragonboat Festival
+                    </p>
+                    <div class="events-highlights__meta">
+                      <div class="events-highlights__meta-item">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="20"
+                          height="20"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        >
+                          <path
+                            d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"
+                          ></path>
+                          <circle cx="12" cy="10" r="3"></circle>
+                        </svg>
+                        <span>Sloans Lake, Denver, Colorado</span>
+                      </div>
+                    </div>
+                    <a href="#">
+                      <div class="btn btn-primary btn-sm">
+                        <span>Event Details</span>
+                      </div>
+                    </a>
+                  </div>
+                </article>
+                <article class="events-highlights__item">
+                  <div class="events-highlights__date-badge">
+                    <span class="events-highlights__month">AUG</span>
+                    <span class="events-highlights__day">N/A</span>
+                  </div>
+                  <div class="events-highlights__card">
+                    <h3 class="section-subtitle">N/A</h3>
+                    <p class="section-content">N/A</p>
+                    <div class="events-highlights__meta">
+                      <div class="events-highlights__meta-item">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="20"
+                          height="20"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        >
+                          <path
+                            d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"
+                          ></path>
+                          <circle cx="12" cy="10" r="3"></circle>
+                        </svg>
+                        <span>N/A</span>
+                      </div>
+                    </div>
+                    <a href="#">
+                      <div class="btn btn-primary btn-sm">
+                        <span>Event Details</span>
+                      </div>
+                    </a>
+                  </div>
+                </article>
+              </div>
+            </div>
+            <div class="events-highlights__footer">
+              <a href="#">
+                <div class="btn btn-outline"><span>View All Events</span></div>
+              </a>
+            </div>
+          </div>
+        </section>
+        <section id="gallery" class="media-preview">
+          <div class="media-preview__container">
+            <div class="media-preview__header">
+              <h2 class="section-title">Performance Gallery</h2>
+              <p class="section-content">
+                Capturing moments of beauty, tradition, and community spirit.
+              </p>
+            </div>
+            <div class="media-preview__grid">
+              <div class="media-preview__item media-preview__item--image">
+                <img
+                  src="image0.jpg"
+                  alt="Group Performance"
+                  class="media-preview__media"
+                />
+                <div class="media-preview__overlay">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path
+                      d="M13.997 4a2 2 0 0 1 1.76 1.05l.486.9A2 2 0 0 0 18.003 7H20a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2h1.997a2 2 0 0 0 1.759-1.048l.489-.904A2 2 0 0 1 10.004 4z"
+                    ></path>
+                    <circle cx="12" cy="13" r="3"></circle>
+                  </svg>
+                </div>
+              </div>
+              <div class="media-preview__item media-preview__item--video">
+                <video
+                  muted="true"
+                  loop="true"
+                  playsinline="true"
+                  poster="image0.jpg"
+                  src="https://videos.pexels.com/video-files/3636751/3636751-hd_1920_1080_30fps.mp4"
+                  class="media-preview__media"
+                ></video>
+                <div class="media-preview__overlay">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path
+                      d="m16 13l5.223 3.482a.5.5 0 0 0 .777-.416V7.87a.5.5 0 0 0-.752-.432L16 10.5"
+                    ></path>
+                    <rect width="14" height="12" x="2" y="6" rx="2"></rect>
+                  </svg>
+                </div>
+              </div>
+              <div class="media-preview__item media-preview__item--image">
+                <img
+                  src="image0.jpg"
+                  alt="Solo Dancer"
+                  class="media-preview__media"
+                />
+                <div class="media-preview__overlay">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path
+                      d="M13.997 4a2 2 0 0 1 1.76 1.05l.486.9A2 2 0 0 0 18.003 7H20a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2h1.997a2 2 0 0 0 1.759-1.048l.489-.904A2 2 0 0 1 10.004 4z"
+                    ></path>
+                    <circle cx="12" cy="13" r="3"></circle>
+                  </svg>
+                </div>
+              </div>
+              <div class="media-preview__item media-preview__item--image">
+                <img
+                  src="image0.jpg"
+                  alt="Costume Detail"
+                  class="media-preview__media"
+                />
+                <div class="media-preview__overlay">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path
+                      d="M13.997 4a2 2 0 0 1 1.76 1.05l.486.9A2 2 0 0 0 18.003 7H20a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2h1.997a2 2 0 0 0 1.759-1.048l.489-.904A2 2 0 0 1 10.004 4z"
+                    ></path>
+                    <circle cx="12" cy="13" r="3"></circle>
+                  </svg>
+                </div>
+              </div>
+              <div class="media-preview__item media-preview__item--video">
+                <video
+                  muted="true"
+                  loop="true"
+                  playsinline="true"
+                  poster="image0.jpg"
+                  src="https://videos.pexels.com/video-files/31846805/13567075_640_360_25fps.mp4"
+                  class="media-preview__media"
+                ></video>
+                <div class="media-preview__overlay">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path
+                      d="m16 13l5.223 3.482a.5.5 0 0 0 .777-.416V7.87a.5.5 0 0 0-.752-.432L16 10.5"
+                    ></path>
+                    <rect width="14" height="12" x="2" y="6" rx="2"></rect>
+                  </svg>
+                </div>
+              </div>
+              <div class="media-preview__item media-preview__item--image">
+                <img
+                  src="image0.jpg"
+                  alt="Community Event"
+                  class="media-preview__media"
+                />
+                <div class="media-preview__overlay">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path
+                      d="M13.997 4a2 2 0 0 1 1.76 1.05l.486.9A2 2 0 0 0 18.003 7H20a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2h1.997a2 2 0 0 0 1.759-1.048l.489-.904A2 2 0 0 1 10.004 4z"
+                    ></path>
+                    <circle cx="12" cy="13" r="3"></circle>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div class="media-preview__actions">
+              <a href="#">
+                <div class="btn btn-lg btn-secondary">
+                  <span>Explore Full Gallery</span>
+                </div>
+              </a>
+              <a href="#">
+                <div class="btn btn-primary btn-lg">
+                  <span>Watch All Videos</span>
+                </div>
+              </a>
+            </div>
+          </div>
+        </section>
+        <section class="impact-stats">
+          <div class="impact-stats__container">
+            <div class="impact-stats__header">
+              <h2 class="section-title">Our Community Impact</h2>
+              <p class="section-content">
+                Through your support, we continue to foster growth and pride
+                within our youth community.
+              </p>
+            </div>
+            <div class="impact-stats__grid">
+              <div class="impact-stats__item">
+                <div class="impact-stats__icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path d="M8 2v4m8-4v4"></path>
+                    <rect width="18" height="18" x="3" y="4" rx="2"></rect>
+                    <path d="M3 10h18"></path>
+                  </svg>
+                </div>
+                <div class="impact-stats__number"><span>5+</span></div>
+                <div class="impact-stats__label"><span>Events Held</span></div>
+              </div>
+              <div class="impact-stats__item">
+                <div class="impact-stats__icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path
+                      d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2M16 3.128a4 4 0 0 1 0 7.744M22 21v-2a4 4 0 0 0-3-3.87"
+                    ></path>
+                    <circle cx="9" cy="7" r="4"></circle>
+                  </svg>
+                </div>
+                <div class="impact-stats__number"><span>30+</span></div>
+                <div class="impact-stats__label"><span>Youth Served</span></div>
+              </div>
+              <div class="impact-stats__item">
+                <div class="impact-stats__icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path
+                      d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="impact-stats__number"><span>$5k+</span></div>
+                <div class="impact-stats__label">
+                  <span>Dollars raised</span>
+                </div>
+              </div>
+              <div class="impact-stats__item">
+                <div class="impact-stats__icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <polyline points="12 6 12 12 16 14"></polyline>
+                  </svg>
+                </div>
+                <div class="impact-stats__number"><span>500+</span></div>
+                <div class="impact-stats__label">
+                  <span>Volunteer Hours</span>
+                </div>
+              </div>
+              <div class="impact-stats__item">
+                <div class="impact-stats__icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path d="m3 21 1.9-5.7a8.5 8.5 0 1 1 3.8 3.8z"></path>
+                  </svg>
+                </div>
+                <div class="impact-stats__number"><span>5k+</span></div>
+                <div class="impact-stats__label">
+                  <span>Lives Touched</span>
+                </div>
+              </div>
+              <div class="impact-stats__item">
+                <div class="impact-stats__icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"></path>
+                    <path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"></path>
+                    <path d="M4 22h16"></path>
+                    <path
+                      d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"
+                    ></path>
+                    <path
+                      d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"
+                    ></path>
+                    <path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"></path>
+                  </svg>
+                </div>
+                <div class="impact-stats__number"><span>16</span></div>
+                <div class="impact-stats__label">
+                  <span>Years of Heritage</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="donate" class="support-cta">
+          <div class="support-cta__container">
+            <div class="support-cta__split">
+              <div class="support-cta__content">
+                <h2 class="section-title">Support Our Mission</h2>
+                <p class="section-content">
+                  Your generous contributions directly fund costume materials,
+                  venue rentals, and educational workshops for our young
+                  dancers. Every dollar helps keep our traditions alive.
+                </p>
+                <div class="support-cta__options">
+                  <div class="support-cta__option">
+                    <h4 class="section-subtitle">One-Time Gift</h4>
+                    <p class="section-content">
+                      Perfect for immediate project needs and event support.
+                    </p>
+                  </div>
+                  <div class="support-cta__option">
+                    <h4 class="section-subtitle">Monthly Supporter</h4>
+                    <p class="section-content">
+                      Provide sustainable growth for our year-round programs.
+                    </p>
+                  </div>
+                </div>
+                <div class="support-cta__actions">
+                  <a href="#">
+                    <div class="btn btn-accent btn-xl">
+                      <span>Donate Now</span>
+                    </div>
+                  </a>
+                  <a href="#">
+                    <div class="btn btn-link">
+                      <span>Other ways to help</span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="support-cta__image">
+                <img
+                  src="public/image0-1500w.jpg"
+                  alt="Dancers smiling"
+                  class="support-cta__img"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="quick-contact">
+          <div class="quick-contact__container">
+            <div class="quick-contact__split">
+              <div class="quick-contact__info">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-content">
+                  Have questions about our performances or want to join the
+                  community? Reach out to us today!
+                </p>
+                <ul class="quick-contact__list">
+                  <li class="quick-contact__list-item">
+                    <div class="quick-contact__list-icon">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+                        <path
+                          d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"
+                        ></path>
+                      </svg>
+                    </div>
+                    <span>contact@monyouthcommunity.com</span>
+                  </li>
+                  <li class="quick-contact__list-item">
+                    <div class="quick-contact__list-icon">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <path
+                          d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"
+                        ></path>
+                      </svg>
+                    </div>
+                    <span>(720) 369-8654</span>
+                  </li>
+                  <li class="quick-contact__list-item">
+                    <div class="quick-contact__list-icon">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <path
+                          d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"
+                        ></path>
+                        <circle cx="12" cy="10" r="3"></circle>
+                      </svg>
+                    </div>
+                    <span>Aurora, Colorado, USA</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="quick-contact__form-wrapper">
+                <form
+                  action="#"
+                  method="POST"
+                  data-form-id="d9475232-0637-4fb8-a6b7-a1d01d2bf5a7"
+                  class="quick-contact__form"
+                >
+                  <div class="quick-contact__form-group">
+                    <label for="name" class="section-content">Full Name</label>
+                    <input
+                      type="text"
+                      id="name"
+                      name="true"
+                      required="true"
+                      data-form-field-id="name"
+                      class="quick-contact__input"
+                    />
+                  </div>
+                  <div class="quick-contact__form-group">
+                    <label for="email" class="section-content">
+                      Email Address
+                    </label>
+                    <input
+                      type="email"
+                      id="email"
+                      name="email"
+                      required="true"
+                      data-form-field-id="email"
+                      class="quick-contact__input"
+                    />
+                  </div>
+                  <div class="quick-contact__form-group">
+                    <label for="message" class="section-content">Message</label>
+                    <textarea
+                      id="message"
+                      name="message"
+                      required="true"
+                      data-form-field-id="message"
+                      class="quick-contact__textarea"
+                    ></textarea>
+                  </div>
+                  <button
+                    type="submit"
+                    id="thq_button_sEXK"
+                    name="button"
+                    data-form-field-id="thq_button_sEXK"
+                    class="btn btn-primary btn-lg"
+                  >
+                    Send Message
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="home-container2">
+          <div class="home-container3">
+            <script defer="" data-name="mon-youth-animations">
+              document.addEventListener('DOMContentLoaded', function() {
+                (function(){
+                  // Handle Video Hover in Media Preview
+                  const mediaItems = document.querySelectorAll(".media-preview__item--video")
+
+                  mediaItems.forEach((item) => {
+                    const video = item.querySelector("video")
+
+                    item.addEventListener("mouseenter", () => {
+                      video.play()
+                    })
+
+                    item.addEventListener("mouseleave", () => {
+                      video.pause()
+                      video.currentTime = 0
+                    })
+                  })
+
+                  // Simple Scroll Animation for Stats
+                  const statsItems = document.querySelectorAll(".impact-stats__item")
+
+                  const observerOptions = {
+                    threshold: 0.2,
+                  }
+
+                  const statsObserver = new IntersectionObserver((entries) => {
+                    entries.forEach((entry) => {
+                      if (entry.isIntersecting) {
+                        entry.target.style.opacity = "1"
+                        entry.target.style.transform = "translateY(0)"
+                        statsObserver.unobserve(entry.target)
+                      }
+                    })
+                  }, observerOptions)
+
+                  statsItems.forEach((item, index) => {
+                    item.style.opacity = "0"
+                    item.style.transform = "translateY(20px)"
+                    item.style.transition = `all 0.6s ease-out ${index * 100}ms`
+                    statsObserver.observe(item)
+                  })
+
+                  // Form Feedback Simulation
+                  const contactForm = document.querySelector(".quick-contact__form")
+
+                  if (contactForm) {
+                    contactForm.addEventListener("submit", (e) => {
+                      // Note: Native submission still happens unless e.preventDefault() is used.
+                      // We only provide visual feedback here.
+                      const submitBtn = contactForm.querySelector('button[type="submit"]')
+                      const originalText = submitBtn.textContent
+
+                      // Minimal visual feedback
+                      submitBtn.textContent = "Sending..."
+                      submitBtn.disabled = true
+
+                      // Revert after a short delay to simulate process before native action
+                      setTimeout(() => {
+                        submitBtn.textContent = originalText
+                        submitBtn.disabled = false
+                      }, 2000)
+                    })
+                  }
+                })()
+              });
+            </script>
+          </div>
+        </div>
+        <footer-wrapper class="footer-wrapper">
+          <!--Footer component-->
+          <div class="footer-container1">
+            <footer class="footer-root">
+              <div class="footer-container">
+                <div class="footer-layout">
+                  <div class="footer-column footer-brand-col">
+                    <div class="footer-logo-wrapper">
+                      <h2 class="footer-brand-name section-title">
+                        Mon Youth Community
+                      </h2>
+                      <span class="footer-brand-tagline">Colorado</span>
+                    </div>
+                    <p class="footer-description section-content">
+                      Empowering Mon youth through the vibrant tradition of
+                      dance and community organizing. We are a dedicated
+                      nonprofit celebrating culture and connection in Colorado.
+                    </p>
+                    <div class="footer-social-links">
+                      <a href="#">
+                        <div aria-label="Facebook" class="footer-social-icon">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              fill="none"
+                              stroke="currentColor"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              stroke-width="2"
+                              d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"
+                            ></path>
+                          </svg>
+                        </div>
+                      </a>
+                      <a href="#">
+                        <div aria-label="Instagram" class="footer-social-icon">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                          >
+                            <g
+                              fill="none"
+                              stroke="currentColor"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              stroke-width="2"
+                            >
+                              <rect
+                                width="20"
+                                height="20"
+                                x="2"
+                                y="2"
+                                rx="5"
+                                ry="5"
+                              ></rect>
+                              <path
+                                d="M16 11.37A4 4 0 1 1 12.63 8A4 4 0 0 1 16 11.37m1.5-4.87h.01"
+                              ></path>
+                            </g>
+                          </svg>
+                        </div>
+                      </a>
+                      <a href="#">
+                        <div aria-label="YouTube" class="footer-social-icon">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                          >
+                            <g
+                              fill="none"
+                              stroke="currentColor"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              stroke-width="2"
+                            >
+                              <path
+                                d="M2.5 17a24.1 24.1 0 0 1 0-10a2 2 0 0 1 1.4-1.4a49.6 49.6 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.1 24.1 0 0 1 0 10a2 2 0 0 1-1.4 1.4a49.6 49.6 0 0 1-16.2 0A2 2 0 0 1 2.5 17"
+                              ></path>
+                              <path d="m10 15l5-3l-5-3z"></path>
+                            </g>
+                          </svg>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="footer-column footer-links-col">
+                    <h3 class="footer-col-title section-subtitle">Community</h3>
+                    <nav class="footer-nav">
+                      <ul class="footer-link-list">
+                        <li class="footer-link-item">
+                          <a href="Homepage">
+                            <div class="footer-link">
+                              <span>Our Dancers</span>
+                            </div>
+                          </a>
+                        </li>
+                        <li class="footer-link-item">
+                          <a href="Homepage">
+                            <div class="footer-link">
+                              <span>Events Gallery</span>
+                            </div>
+                          </a>
+                        </li>
+                        <li class="footer-link-item">
+                          <a href="Homepage">
+                            <div class="footer-link">
+                              <span>Future Events</span>
+                            </div>
+                          </a>
+                        </li>
+                        <li class="footer-link-item">
+                          <a href="Homepage">
+                            <div class="footer-link"><span>About Us</span></div>
+                          </a>
+                        </li>
+                      </ul>
+                    </nav>
+                    <div class="footer-cta-wrapper">
+                      <a href="#">
+                        <div class="footer-donate-btn btn btn-accent">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="20"
+                            height="20"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              fill="none"
+                              stroke="currentColor"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              stroke-width="2"
+                              d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676a.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5"
+                            ></path>
+                          </svg>
+                          <span>Support Our Youth</span>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="footer-column footer-contact-col">
+                    <h3 class="footer-col-title section-subtitle">
+                      Get in Touch
+                    </h3>
+                    <ul class="footer-contact-list">
+                      <li class="footer-contact-item">
+                        <div class="footer-contact-icon-box">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="20"
+                            height="20"
+                            viewBox="0 0 24 24"
+                          >
+                            <g
+                              fill="none"
+                              stroke="currentColor"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              stroke-width="2"
+                            >
+                              <path
+                                d="m22 7l-8.991 5.727a2 2 0 0 1-2.009 0L2 7"
+                              ></path>
+                              <rect
+                                width="20"
+                                height="16"
+                                x="2"
+                                y="4"
+                                rx="2"
+                              ></rect>
+                            </g>
+                          </svg>
+                        </div>
+                        <span class="section-content">
+                          contact@monyouthcolorado.com
+                        </span>
+                      </li>
+                      <li class="footer-contact-item">
+                        <div class="footer-contact-icon-box">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="20"
+                            height="20"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              fill="none"
+                              stroke="currentColor"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              stroke-width="2"
+                              d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233a14 14 0 0 0 6.392 6.384"
+                            ></path>
+                          </svg>
+                        </div>
+                        <span class="section-content">(720) 369-8654</span>
+                      </li>
+                      <li class="footer-contact-item">
+                        <div class="footer-contact-icon-box">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="20"
+                            height="20"
+                            viewBox="0 0 24 24"
+                          >
+                            <g
+                              fill="none"
+                              stroke="currentColor"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              stroke-width="2"
+                            >
+                              <path
+                                d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"
+                              ></path>
+                              <circle cx="12" cy="10" r="3"></circle>
+                            </g>
+                          </svg>
+                        </div>
+                        <span class="section-content">Aurora, Colorado</span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="footer-bottom">
+                  <div class="footer-divider"></div>
+                  <div class="footer-bottom-content">
+                    <p class="footer-copyright section-content">
+                      &amp;copy; 2026 Mon Youth Community of Colorado. All
+                      rights reserved.
+                    </p>
+                    <div class="footer-legal-links">
+                      <a href="#">
+                        <div class="footer-legal-link">
+                          <span>Privacy Policy</span>
+                        </div>
+                      </a>
+                      <a href="#">
+                        <div class="footer-legal-link">
+                          <span>Terms of Service</span>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </footer>
+            <div class="footer-container2">
+              <div class="footer-container3">
+                <script defer="" data-name="footer-animations">
+                  document.addEventListener('DOMContentLoaded', function() {
+                    (function(){
+                      const footerIcons = document.querySelectorAll(".footer-social-icon")
+
+                      footerIcons.forEach((icon) => {
+                        icon.addEventListener("mouseenter", () => {
+                          const svg = icon.querySelector("svg")
+                          if (svg) {
+                            svg.style.transition = "transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275)"
+                            svg.style.transform = "scale(1.2) rotate(8deg)"
+                          }
+                        })
+
+                        icon.addEventListener("mouseleave", () => {
+                          const svg = icon.querySelector("svg")
+                          if (svg) {
+                            svg.style.transform = "scale(1) rotate(0deg)"
+                          }
+                        })
+                      })
+
+                      const footerLinks = document.querySelectorAll(".footer-link")
+
+                      footerLinks.forEach((link) => {
+                        link.addEventListener("mouseenter", () => {
+                          link.style.color = "var(--color-primary)"
+                        })
+
+                        link.addEventListener("mouseleave", () => {
+                          link.style.color = "var(--color-on-surface-secondary)"
+                        })
+                      })
+                    })()
+                  });
+                </script>
+              </div>
+            </div>
+          </div>
+        </footer-wrapper>
+        <a href="https://play.teleporthq.io/signup">
+          <div aria-label="Sign up to TeleportHQ" class="home-container4">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 19 21"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              class="home-icon69"
+            >
+              <path
+                d="M9.1017 4.64355H2.17867C0.711684 4.64355 -0.477539 5.79975 -0.477539 7.22599V13.9567C-0.477539 15.3829 0.711684 16.5391 2.17867 16.5391H9.1017C10.5687 16.5391 11.7579 15.3829 11.7579 13.9567V7.22599C11.7579 5.79975 10.5687 4.64355 9.1017 4.64355Z"
+                fill="#B23ADE"
+              ></path>
+              <path
+                d="M10.9733 12.7878C14.4208 12.7878 17.2156 10.0706 17.2156 6.71886C17.2156 3.3671 14.4208 0.649963 10.9733 0.649963C7.52573 0.649963 4.73096 3.3671 4.73096 6.71886C4.73096 10.0706 7.52573 12.7878 10.9733 12.7878Z"
+                fill="#FF5C5C"
+              ></path>
+              <path
+                d="M17.7373 13.3654C19.1497 14.1588 19.1497 15.4634 17.7373 16.2493L10.0865 20.5387C8.67402 21.332 7.51855 20.6836 7.51855 19.0968V10.5141C7.51855 8.92916 8.67402 8.2807 10.0865 9.07221L17.7373 13.3654Z"
+                fill="#2874DE"
+              ></path>
+            </svg>
+            <span class="home-text42">Built in TeleportHQ</span>
+          </div>
+        </a>
+      </div>
+      <link
+        rel="canonical"
+        href="https://advanced-revolving-chinchilla-m8ylrb.teleporthq.app/"
+      />
+    </div>
+  </body>
 </html>

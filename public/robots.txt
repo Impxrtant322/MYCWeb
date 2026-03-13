@@ -1,0 +1,7 @@
+User-agent: Googlebot
+Disallow: /nogooglebot/
+
+User-agent: *
+Allow: /
+
+Sitemap: https://advanced-revolving-chinchilla-m8ylrb.teleporthq.app/sitemap.xml
