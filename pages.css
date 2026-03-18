@@ -1,0 +1,480 @@
+.page-hero {
+  position: relative;
+  min-height: 62vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 120px 24px 80px;
+  overflow: hidden;
+}
+
+.page-hero__bg {
+  position: absolute;
+  inset: 0;
+}
+
+.page-hero__bg img,
+.page-hero__bg video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.page-hero__overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(7, 14, 28, 0.52), rgba(7, 14, 28, 0.8));
+}
+
+.page-hero__content {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  max-width: 920px;
+  text-align: center;
+  color: white;
+}
+
+.page-hero .hero-title,
+.page-hero .hero-subtitle {
+  color: white;
+}
+
+.page-section {
+  padding: 72px 24px;
+}
+
+.page-section--alt {
+  background: rgba(15, 23, 42, 0.03);
+}
+
+.page-section__container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.page-section__header {
+  max-width: 760px;
+  margin: 0 auto 32px;
+  text-align: center;
+}
+
+.page-grid-2 {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 32px;
+  align-items: center;
+}
+
+.page-grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.page-card {
+  background: white;
+  border-radius: 24px;
+  padding: 28px;
+  box-shadow: 0 18px 45px rgba(0, 0, 0, 0.08);
+  height: 100%;
+}
+
+.page-card__icon {
+  width: 56px;
+  height: 56px;
+  border-radius: 18px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(59, 130, 246, 0.12);
+  color: #2563eb;
+  margin-bottom: 18px;
+}
+
+.page-image-card {
+  overflow: hidden;
+  border-radius: 28px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.12);
+}
+
+.page-image-card img {
+  width: 100%;
+  height: 100%;
+  min-height: 420px;
+  object-fit: cover;
+  display: block;
+}
+
+.page-feature-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.page-feature-list li {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  margin-bottom: 16px;
+}
+
+.page-feature-list li svg {
+  flex-shrink: 0;
+  margin-top: 3px;
+  color: #2563eb;
+}
+
+.page-cta-box {
+  border-radius: 28px;
+  padding: 40px 32px;
+  background: linear-gradient(135deg, rgba(56, 103, 214, 0.12), rgba(255, 189, 89, 0.2));
+  text-align: center;
+}
+
+.page-cta-box__actions {
+  margin-top: 24px;
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.page-gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.page-gallery-card {
+  background: white;
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: 0 18px 45px rgba(0, 0, 0, 0.08);
+  height: 100%;
+}
+
+.page-gallery-card img,
+.page-gallery-card video {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  display: block;
+}
+
+.page-gallery-card__content {
+  padding: 20px;
+}
+
+.page-events-list {
+  display: grid;
+  gap: 24px;
+}
+
+.page-event-card {
+  display: grid;
+  grid-template-columns: 140px 1fr;
+  gap: 24px;
+  align-items: stretch;
+  background: white;
+  border-radius: 28px;
+  padding: 24px;
+  box-shadow: 0 18px 45px rgba(0, 0, 0, 0.08);
+}
+
+.page-event-date {
+  border-radius: 24px;
+  background: linear-gradient(180deg, #2563eb, #1d4ed8);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 180px;
+  text-align: center;
+  padding: 20px;
+}
+
+.page-event-date__month {
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.page-event-date__day {
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 1;
+  margin: 8px 0;
+}
+
+.page-event-meta {
+  display: flex;
+  gap: 18px;
+  flex-wrap: wrap;
+  margin: 12px 0 18px;
+  color: rgba(15, 23, 42, 0.75);
+}
+
+.page-event-meta span {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.page-contact-grid {
+  display: grid;
+  grid-template-columns: 0.95fr 1.05fr;
+  gap: 32px;
+}
+
+.page-contact-list {
+  list-style: none;
+  padding: 0;
+  margin: 24px 0 0;
+}
+
+.page-contact-list li {
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+  margin-bottom: 18px;
+}
+
+.page-contact-list svg {
+  flex-shrink: 0;
+  color: #2563eb;
+  margin-top: 3px;
+}
+
+.page-contact-form {
+  background: white;
+  border-radius: 28px;
+  padding: 28px;
+  box-shadow: 0 18px 45px rgba(0, 0, 0, 0.08);
+}
+
+.page-contact-form .quick-contact__input,
+.page-contact-form .quick-contact__textarea {
+  width: 100%;
+}
+
+.page-donate-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.page-donate-card {
+  background: white;
+  border-radius: 28px;
+  padding: 28px;
+  box-shadow: 0 18px 45px rgba(0, 0, 0, 0.08);
+  height: 100%;
+  position: relative;
+}
+
+.page-donate-card--featured {
+  border: 2px solid rgba(37, 99, 235, 0.28);
+  transform: translateY(-6px);
+}
+
+.page-donate-badge {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 999px;
+  background: rgba(37, 99, 235, 0.12);
+  color: #1d4ed8;
+  font-weight: 700;
+  font-size: 0.9rem;
+  margin-bottom: 18px;
+}
+
+.page-donate-price {
+  font-size: 2.5rem;
+  font-weight: 800;
+  line-height: 1;
+  margin-bottom: 12px;
+}
+
+.page-donate-list {
+  list-style: none;
+  padding: 0;
+  margin: 22px 0 0;
+}
+
+.page-donate-list li {
+  margin-bottom: 12px;
+  padding-left: 22px;
+  position: relative;
+}
+
+.page-donate-list li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #2563eb;
+  font-weight: 800;
+}
+
+/* Leadership section */
+.leadership-team__grid {
+  margin-top: 8px;
+}
+
+.leadership-team__role {
+  margin: 0 0 6px;
+  font-weight: 700;
+  color: #ff5a4f;
+  line-height: 1.3;
+}
+
+.featured-dancers__card {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.featured-dancers__image-wrapper {
+  width: 100%;
+  overflow: hidden;
+}
+
+.featured-dancers__img {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+.featured-dancers__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 6px;
+  padding: 20px 24px 24px;
+}
+
+.featured-dancers__info h3,
+.featured-dancers__info .leadership-team__role,
+.featured-dancers__info .section-content {
+  margin: 0;
+}
+
+.featured-dancers__info .section-content {
+  line-height: 1.6;
+}
+
+/* Leadership group photo */
+.leadership-team__group-photo {
+  margin-top: 32px;
+}
+
+.leadership-team__group-photo-card {
+  background: white;
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: 0 18px 45px rgba(0, 0, 0, 0.08);
+}
+
+.leadership-team__group-photo-image-wrapper {
+  width: 100%;
+}
+
+.leadership-team__group-photo-img {
+  width: 100%;
+  height: 420px;
+  object-fit: cover;
+  display: block;
+}
+
+.leadership-team__group-photo-info {
+  padding: 24px 28px 28px;
+}
+
+.leadership-team__group-photo-info h3,
+.leadership-team__group-photo-info .section-content {
+  margin: 0;
+}
+
+.leadership-team__group-photo-info .section-content {
+  margin-top: 10px;
+}
+
+/* FIX: remove underline from brand link itself, not just the children */
+.navigation-root > .navigation-container > a,
+.navigation-mobile-header > a {
+  text-decoration: none !important;
+  color: inherit;
+}
+
+.navigation-brand,
+.navigation-brand * {
+  text-decoration: none !important;
+}
+
+/* Optional: keep nav links clean too */
+.navigation-root a,
+.navigation-mobile-content a {
+  text-decoration: none;
+}
+
+@media (min-width: 768px) {
+  .leadership-team__grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 991px) {
+  .page-grid-2,
+  .page-grid-3,
+  .page-gallery-grid,
+  .page-contact-grid,
+  .page-donate-grid,
+  .page-event-card,
+  .leadership-team__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .page-event-date {
+    min-height: 120px;
+  }
+
+  .page-donate-card--featured {
+    transform: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .page-hero {
+    min-height: 56vh;
+    padding: 104px 20px 64px;
+  }
+
+  .page-section {
+    padding: 56px 20px;
+  }
+
+  .page-gallery-card img,
+  .page-gallery-card video {
+    height: 220px;
+  }
+
+  .page-image-card img {
+    min-height: 300px;
+  }
+
+  .featured-dancers__img {
+    aspect-ratio: 4 / 5;
+  }
+
+  .leadership-team__group-photo-img {
+    height: 260px;
+  }
+
+  .leadership-team__group-photo-info {
+    padding: 20px 22px 22px;
+  }
+}
